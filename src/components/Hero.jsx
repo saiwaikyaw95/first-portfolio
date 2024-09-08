@@ -1,6 +1,7 @@
 import React from 'react'
 import heroimage from '../assets/hero.png';
 import { TypeAnimation } from 'react-type-animation';
+import Example from './AnimatedButton';
 
 const Hero = () => {
   return (
@@ -29,9 +30,8 @@ const Hero = () => {
           My name is Sai Wai Kyaw and I have 2+ years experience in web development.
         </p>
 
-        <div className='my-8'>
-          <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to to-pink-500 text-black dark:text-white hover:bg-none hover:border hover:border-gray-400'>Download CV</a>
-          <a href='#contact' className='px-6 py-3 w-full rounded-xl border border-gray-400 hover:bg-gradient-to-br from-orange-500 to to-pink-500 text-black dark:text-white hover:border-none'>Contact</a>
+        <div className='my-10'>
+          <Example/>
         </div>
       </div>
 
